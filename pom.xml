@@ -15,5 +15,11 @@
         <module>rima-regression-tests</module>
     </modules>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <selenium.version>2.53.1</selenium.version>
+        <java.version>1.8</java.version>
+        <testng.version>6.9.9</testng.version>
+    </properties>
 
 </project>
