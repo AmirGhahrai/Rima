@@ -5,14 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>Rima</groupId>
-    <artifactId>Rima</artifactId>
+    <artifactId>Test-Automation-Framework</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>rima-framework</module>
-        <module>rima-domain</module>
-        <module>rima-page-objects</module>
-        <module>rima-regression-tests</module>
+        <module>framework</module>
+        <module>domain</module>
+        <module>page-objects</module>
+        <module>regression-tests</module>
     </modules>
 
     <properties>
