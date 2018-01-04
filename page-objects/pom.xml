@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>page-objects</artifactId>
+    <artifactId>rima-page-objects</artifactId>
 
     <dependencies>
         <dependency>
