@@ -16,7 +16,7 @@ public class BaseTest {
         System.setProperty("headless", "false"); // You can set this property elsewhere
         String headless = System.getProperty("headless");
 
-        ChromeDriverManager.getInstance().setup();
+        ChromeDriverManager.chromedriver();
         if("true".equals(headless)) {
             ChromeOptions chromeOptions = new ChromeOptions();
             chromeOptions.addArguments("--headless");
